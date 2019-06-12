@@ -10,7 +10,54 @@
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/courses_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/elements_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
 <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<style>
+		* {
+		  box-sizing: border-box;
+		}
+		
+		body {
+		  font-family: Arial, Helvetica, sans-serif;
+		}
+		
+		/* Float four columns side by side */
+		.column {
+		  float: left;
+		  width: 25%;
+		  padding: 0 10px;
+		}
+		
+		/* Remove extra left and right margins, due to padding */
+		.row {margin: 0 -5px;}
+		
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		
+		/* Responsive columns */
+		@media screen and (max-width: 600px) {
+		  .column {
+			width: 100%;
+			display: block;
+			margin-bottom: 20px;
+		  }
+		}
+		
+		/* Style the counter cards */
+		.card {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  padding: 16px;
+		  text-align: center;
+		  background-color: #f1f1f1;
+		}
+		</style>
 </head>
 <body>
 
@@ -106,136 +153,237 @@
 			<div class="row">
 				<div class="col">
 					<div class="section_title text-center">
-						<h1>Popular Courses</h1>
+						<h1>Download Study Material</h1>
 					</div>
 				</div>
 			</div>
+			
 
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Maths</h3>
+      <p>Description</p>
+      <a href="#">Click to Download</a>
+    </div>
+  </div>
 
-			<div class="row course_boxes">
+  <div class="column">
+    <div class="card">
+      <h3>English</h3>
+      <p>Description</p>
+      <a href="#">Click to Download</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Science</h3>
+      <p>Description</p>
+      <a href="#">Click to Download</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Others</h3>
+      <p>Description</p>
+      <a href="#">Click to Download</a>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="row">
+		<div class="column">
+		  <div class="card">
+			<h3>Maths</h3>
+			<p>Description</p>
+			<a href="#">Click to Download</a>
+		  </div>
+		</div>
+	  
+		<div class="column">
+		  <div class="card">
+			<h3>English</h3>
+			<p>Description</p>
+			<a href="#">Click to Download</a>
+		  </div>
+		</div>
+		
+		<div class="column">
+		  <div class="card">
+			<h3>Science</h3>
+			<p>Description</p>
+			<a href="#">Click to Download</a>
+		  </div>
+		</div>
+		
+		<div class="column">
+		  <div class="card">
+			<h3>Others</h3>
+			<p>Description</p>
+			<a href="#">Click to Download</a>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <br>
+	  <br>
+
+	  <div class="row">
+			<div class="column">
+			  <div class="card">
+				<h3>Maths</h3>
+				<p>Description</p>
+				<a href="#">Click to Download</a>
+			  </div>
+			</div>
+		  
+			<div class="column">
+			  <div class="card">
+				<h3>English</h3>
+				<p>Description</p>
+				<a href="#">Click to Download</a>
+			  </div>
+			</div>
+			
+			<div class="column">
+			  <div class="card">
+				<h3>Science</h3>
+				<p>Description</p>
+				<a href="#">Click to Download</a>
+			  </div>
+			</div>
+			
+			<div class="column">
+			  <div class="card">
+				<h3>Others</h3>
+				<p>Description</p>
+				<a href="#">Click to Download</a>
+			  </div>
+			</div>
+		  </div>
+		  
+		  <br>
+		  <br>
+
+		  <div class="row">
+				<div class="column">
+				  <div class="card">
+					<h3>Maths</h3>
+					<p>Description</p>
+					<a href="#">Click to Download</a>
+				  </div>
+				</div>
+			  
+				<div class="column">
+				  <div class="card">
+					<h3>English</h3>
+					<p>Description</p>
+					<a href="#">Click to Download</a>
+				  </div>
+				</div>
 				
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="images/course_1.jpg" alt="https://unsplash.com/@kellybrito">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">For 8th state board</a></div>
-							<div class="card-text">Science,Maths,English...</div>
+				<div class="column">
+				  <div class="card">
+					<h3>Science</h3>
+					<p>Description</p>
+					<a href="#">Click to Download</a>
+				  </div>
+				</div>
+				
+				<div class="column">
+				  <div class="card">
+					<h3>Others</h3>
+					<p>Description</p>
+					<a href="#">Click to Download</a>
+				  </div>
+				</div>
+			  </div>
+			  
+			  <br>
+			  <br>
+
+			  <div class="row">
+					<div class="column">
+					  <div class="card">
+						<h3>Maths</h3>
+						<p>Description</p>
+						<a href="#">Click to Download</a>
+					  </div>
+					</div>
+				  
+					<div class="column">
+					  <div class="card">
+						<h3>English</h3>
+						<p>Description</p>
+						<a href="#">Click to Download</a>
+					  </div>
+					</div>
+					
+					<div class="column">
+					  <div class="card">
+						<h3>Science</h3>
+						<p>Description</p>
+						<a href="#">Click to Download</a>
+					  </div>
+					</div>
+					
+					<div class="column">
+					  <div class="card">
+						<h3>Others</h3>
+						<p>Description</p>
+						<a href="#">Click to Download</a>
+					  </div>
+					</div>
+				  </div>
+				  
+				  <br>
+				  <br>
+
+				  <div class="row">
+						<div class="column">
+						  <div class="card">
+							<h3>Maths</h3>
+							<p>Description</p>
+							<a href="#">Click to Download</a>
+						  </div>
+						</div>
+					  
+						<div class="column">
+						  <div class="card">
+							<h3>English</h3>
+							<p>Description</p>
+							<a href="#">Click to Download</a>
+						  </div>
 						</div>
 						
-					</div>
-				</div>
-
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="images/course_2.jpg" alt="https://unsplash.com/@cikstefan">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">For 9th state board</a></div>
-							<div class="card-text">Science,Maths,English...</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="images/course_3.jpg" alt="https://unsplash.com/@dsmacinnes">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">For 10th state board</a></div>
-							<div class="card-text">Science,Maths,English...</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="images/course_4.jpg" alt="https://unsplash.com/@kellitungay">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">For 8th CBSE</a></div>
-							<div class="card-text">Science,Maths...</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="images/course_5.jpg" alt="https://unsplash.com/@claybanks1989">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">For 9th CBSE</a></div>
-							<div class="card-text">Science,Maths...</div>
+						<div class="column">
+						  <div class="card">
+							<h3>Science</h3>
+							<p>Description</p>
+							<a href="#">Click to Download</a>
+						  </div>
 						</div>
 						
-					</div>
-				</div>
-
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="images/course_6.jpg" alt="https://unsplash.com/@element5digital">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">For 9th CBSE</a></div>
-							<div class="card-text">Science,Maths...</div>
+						<div class="column">
+						  <div class="card">
+							<h3>Others</h3>
+							<p>Description</p>
+							<a href="#">Click to Download</a>
+						  </div>
 						</div>
-					</div>
-				</div>
-                 
+					  </div>
+					  
+					  <br>
+					  <br>
 
-				<!-- Popular Course Item -->
-				
-			</div>
-			    <div class="row">
-				<div class="col">
-					<div class="section_title text-center">
-						<h1>Monthly Courses</h1>
-					</div>
-				</div>
-			</div>
 
-			<div class="row course_boxes">
-				
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="images/course_1.jpg" alt="https://unsplash.com/@kellybrito">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Effective English Speaking and vedic maths </a></div>
-							<div class="card-text"><h2></h2></div>
-						</div>
-						
-					</div>
-				</div>
 
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="images/course_2.jpg" alt="https://unsplash.com/@cikstefan">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Chess , Drawing and Dance</a></div>
-							<div class="card-text"><h2></h2></div>
-						</div>
-					</div>
-				</div>
 
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="images/course_3.jpg" alt="https://unsplash.com/@dsmacinnes">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Singing and Musical Instruments</a></div>
-							<div class="card-text"><h2></h2></div>
-						</div>
-					</div>
-				</div>
-
-				
-                 
-
-				<!-- Popular Course Item -->
-				
-			</div>
 
 		</div>		
 	</div>
