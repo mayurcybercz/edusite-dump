@@ -112,11 +112,11 @@
 						<div class="contact_title">Get in touch</div>
 
 						<div class="contact_form_container">
-							<form action="post">
-								<input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Name" required="required" data-error="Name is required.">
-								<input id="contact_form_email" class="input_field contact_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
+							<form name="contact" method="POST" data-netlify="true">
+								<input id="contact_form_name" class="input_field contact_form_name" type="text" name="name" placeholder="Name" required="required" data-error="Name is required.">
+								<input id="contact_form_email" class="input_field contact_form_email" type="email" name="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
 								<textarea id="contact_form_message" class="text_field contact_form_message" name="message" placeholder="Message" required="required" data-error="Please, write us a message."></textarea>
-								<button id="contact_send_btn" type="button" class="contact_send_btn trans_200" value="Submit">send message</button>
+								<button id="contact_send_btn" type="submit" class="contact_send_btn trans_200">send message</button>
 							</form>
 						</div>
 					</div>
@@ -192,17 +192,17 @@
 				</div>
 
 				<div class="row">
-					<div class="col text-center">
-						<div class="newsletter_form_container mx-auto">
-							<form action="post">
-								<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
-									<input id="newsletter_email" class="newsletter_email" type="email" placeholder="Email Address" required="required" data-error="Valid email is required.">
-									<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">Subscribe</button>
-								</div>
-							</form>
+						<div class="col text-center">
+							<div class="newsletter_form_container mx-auto">
+								<form name="newsletter" method="post" data-netlify="true">
+									<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
+										<input id="newsletter_email" class="newsletter_email" type="email" name="email" placeholder="Email Address" required="required" data-error="Valid email is required.">
+										<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300">Subscribe</button>
+									</div>
+								</form>
+							</div>
 						</div>
 					</div>
-				</div>
 
 			</div>
 

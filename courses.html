@@ -324,17 +324,17 @@
 				</div>
 
 				<div class="row">
-					<div class="col text-center">
-						<div class="newsletter_form_container mx-auto">
-							<form action="post">
-								<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
-									<input id="newsletter_email" class="newsletter_email" type="email" placeholder="Email Address" required="required" data-error="Valid email is required.">
-									<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">Subscribe</button>
-								</div>
-							</form>
+						<div class="col text-center">
+							<div class="newsletter_form_container mx-auto">
+								<form name="newsletter" method="post" data-netlify="true">
+									<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
+										<input id="newsletter_email" class="newsletter_email" type="email" name="email" placeholder="Email Address" required="required" data-error="Valid email is required.">
+										<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300">Subscribe</button>
+									</div>
+								</form>
+							</div>
 						</div>
 					</div>
-				</div>
 
 			</div>
 
